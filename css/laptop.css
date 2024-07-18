@@ -1,0 +1,53 @@
+/*1439px-769px*/
+
+
+
+@media (max-width: 1171px) {
+    .container {
+        padding-inline: 11px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 80px 392px 320px;
+        grid-template-areas:
+            "HEADER HEADER HEADER HEADER HEADER HEADER"
+            "SECTION1 SECTION1 SECTION1 SECTION2 SECTION2 SECTION2"
+            "CARD1 CARD1 CARD2 CARD2 CARD3 CARD3"
+    }
+}
+/*
+    .card4 {
+        display: none;
+    }
+
+    .section1_title {
+        font-size: 48px;
+        line-height: 56px;
+    }
+}
+
+
+@media (max-width: 761px) {
+    .container {
+        padding: 16px 6px;
+        grid-template-rows: 80px 260px 392px 320px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "HEADER HEADER"
+            "SECTION1 SECTION1"
+            "SECTION2 SECTION2"
+            "CARD1 CARD2";
+    }
+
+    .section1 {
+        row-gap: 20px;
+    }
+
+    nav,
+    .header_btn,
+    .card3 {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+}

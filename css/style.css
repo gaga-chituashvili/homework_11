@@ -1,8 +1,12 @@
+@import url(variable.css);
+
+
+
 .container {
     width: min(100%, 1440px);
     margin: auto;
     padding: 32px 20px;
-    background-color: #1C5550;
+    background-color: var(--main_color);
     display: grid;
     gap: 48px 40px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -13,9 +17,6 @@
         "ASIDE SECTION SECTION ARTICLE2"
         "CARD1 CARD2 CARD3 CARD4";
 }
-
-
-
 
 
 
@@ -36,11 +37,10 @@
 
 .header_li_link {
     font-family: Inter;
-    font-size: 24px;
+    font-size: var(--heading1);
     font-weight: 400;
     line-height: 32px;
-    text-align: left;
-    color: #DFD9D9;
+    color: var(--cards_color);
 }
 
 
@@ -57,26 +57,26 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 38px 115px 54px 40px;
-    background-color: #00000033;
-    box-shadow: inset 0 4px 4px #00000033,
+    background-color: var(--aside_shadow_color20);
+    box-shadow: inset 0 4px 4px var(--aside_shadow_color20),
         0 -1px 4px;
 }
 
 .aside_title {
     font-family: Inter;
-    font-size: 16px;
+    font-size: var(--paragraph2);
     font-weight: 400;
     line-height: 27px;
-    color: #C3B97F;
+    color: var(--aside_title_color);
 }
 
 
 .aside_li_link {
     font-family: Inter;
-    font-size: 14px;
+    font-size: var(--paragraph3);
     font-weight: 400;
     line-height: 25px;
-    color: #91B599;
+    color: var(--aside_text_color);
 
 }
 
@@ -100,7 +100,6 @@
 
 
 .article1 {
-    background-color: cadetblue;
     grid-area: ARTICLE1;
     background-image: url(../images/section2.png);
     background-repeat: no-repeat;
@@ -110,7 +109,6 @@
 
 
 .article2 {
-    background-color: chocolate;
     grid-area: ARTICLE2;
     background-image: url(../images/section3.png);
     background-repeat: no-repeat;
@@ -163,7 +161,7 @@
 .card_article {
     width: 320px;
     height: 40px;
-    background-color: #DFD9D9;
+    background-color: var(--cards_color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -172,7 +170,7 @@
 
 .card_article_span {
     font-family: Inter;
-    font-size: 16px;
+    font-size: var(--paragraph2_2);
     font-weight: 700;
     line-height: 24px;
     padding: 8px;
@@ -183,11 +181,11 @@
     width: 97px;
     height: 40px;
     font-family: Inter;
-    font-size: 14px;
+    font-size: var(--paragraph3_2);
     font-weight: 700;
     line-height: 22px;
-    color: #DFD9D9;
-    background-color: #C3B97F;
+    color: var(--cards_color);
+    background-color: var(--aside_title_color);
     border: none;
 }
 

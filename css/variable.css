@@ -1,0 +1,15 @@
+:root {
+    --color00: #000000;
+    --main_color: #1C5550;
+    --aside_text_color: #91B599;
+    --aside_title_color: #C3B97F;
+    --cards_color: #DFD9D9;
+    --aside_shadow_color20: #00000033;
+    --aside_shadow_color40: #DFD9D966;
+    --heading1: 24px;
+    --paragraph1: 18px;
+    --paragraph2_1: 16px;
+    --paragraph2_2: 16px;
+    --paragraph3_1: 14px;
+    --paragraph3_2: 14px;
+}
