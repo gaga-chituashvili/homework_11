@@ -171,6 +171,7 @@
 .card_article_span {
     font-family: Inter;
     font-size: var(--paragraph2_2);
+    color: var(--main_color);
     font-weight: 700;
     line-height: 24px;
     padding: 8px;
