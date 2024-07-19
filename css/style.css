@@ -55,8 +55,7 @@
     grid-area: ASIDE;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 38px 115px 54px 40px;
+    padding: 38px 40px 0;
     background-color: var(--aside_shadow_color20);
     box-shadow: inset 0 4px 4px var(--aside_shadow_color20),
         0 -1px 4px;
@@ -83,7 +82,7 @@
 .aside_ul {
     display: flex;
     flex-direction: column;
-    column-gap: 5px;
+    row-gap: 5px;
 }
 
 /*section*/
@@ -159,12 +158,11 @@
 
 
 .card_article {
-    width: 320px;
-    height: 40px;
     background-color: var(--cards_color);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 8px;
 }
 
 
@@ -174,7 +172,6 @@
     color: var(--main_color);
     font-weight: 700;
     line-height: 24px;
-    padding: 8px;
 }
 
 
@@ -189,5 +186,8 @@
     background-color: var(--aside_title_color);
     border: none;
 }
+
+
+
 
 
