@@ -1,1 +1,70 @@
 /*1439px-769px*/
+
+
+
+@media (max-width:1171px) {
+    .container {
+        padding-inline: 11px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 48px 146px 146px 220px;
+        grid-template-areas:
+            "HEADER HEADER HEADER"
+            "ASIDE SECTION ARTICLE1"
+            "ASIDE SECTION ARTICLE2"
+            "CARD1 CARD2 CARD3";
+    }
+
+
+
+    .card4 {
+        display: none;
+    }
+
+
+    .section {
+        background-size: 100% 100%;
+    }
+}
+
+
+@media (max-width: 761px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 80px 260px 392px 320px;
+        grid-template-areas:
+            "HEADER HEADER"
+            "ASIDE ASIDE"
+            "SECTION SECTION"
+            "CARD1 CARD2";
+            gap: 20px;
+    }
+
+
+    .aside {
+        padding: 15px;
+    }
+
+
+    .card3 {
+        display: none;
+    }
+
+
+    .article1,
+    .article2 {
+        display: none;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .button_article {
+        display: none;
+    }
+
+    .burger_icon {
+        display: block;
+    }
+    
+}

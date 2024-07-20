@@ -13,7 +13,7 @@
     grid-template-rows: 48px 146px 146px 220px;
     grid-template-areas:
         "HEADER HEADER HEADER HEADER"
-        "ASIDE SECTION SECTION ARTICLE1 "
+        "ASIDE SECTION SECTION ARTICLE1"
         "ASIDE SECTION SECTION ARTICLE2"
         "CARD1 CARD2 CARD3 CARD4";
 }
@@ -49,6 +49,12 @@
     column-gap: 32px;
 }
 
+
+.burger_icon{
+    font-size: 48px;
+    color: #C3B97F;
+    display: none;
+}
 
 /*aside*/
 .aside {
