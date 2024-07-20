@@ -98,7 +98,7 @@
     background-image: url(../images/section1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
 }
 
 /*article*/
@@ -109,7 +109,7 @@
     background-image: url(../images/section2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
 }
 
 
@@ -118,7 +118,7 @@
     background-image: url(../images/section3.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
 }
 
 
